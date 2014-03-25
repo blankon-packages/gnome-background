@@ -1,3 +1,9 @@
+clutter-1.0 (1.17.6-1blankon2) tambora; urgency=low
+
+  * Changes debian/control and control.in
+
+ -- Syai Mif <syai.unipdu@gmail.com>  Tue, 25 Mar 2014 08:55:09 +0700
+
 clutter-1.0 (1.17.6-1blankon1) tambora; urgency=low
 
   * Upload to tambora 
