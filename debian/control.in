@@ -4,16 +4,17 @@ Priority: optional
 Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
 XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: @GNOME_TEAM@
-Build-Depends: debhelper (>= 10.3~),
+Build-Depends: debhelper (>= 11),
                gnome-pkg-tools,
                libglib2.0-dev,
                meson (>= 0.41.0)
-Standards-Version: 4.1.1
-Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gnome-backgrounds
-Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-backgrounds
+Standards-Version: 4.1.2
+Vcs-Browser: https://salsa.debian.org/gnome-team/gnome-backgrounds
+Vcs-Git: https://salsa.debian.org/gnome-team/gnome-backgrounds.git
 
 Package: gnome-backgrounds
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Conflicts: gnome-themes-standard-data (<< 3.13.90)
 Replaces: gnome-themes-standard-data (<< 3.13.90)
